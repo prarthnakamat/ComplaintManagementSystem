@@ -1,0 +1,155 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 Oct, 2021, 6:08:55 PM
+    Author     : prart
+*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+  background-color:#f2f2f2;
+}
+
+.btn{
+    background-color:#008ae6;
+    padding:8px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin: 7px 7px 0px  7px;
+    outline: none;
+    border: none;
+}
+.status.edit{
+    background-color:#008ae6;
+    padding:2px 8px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.delete{
+    background-color:#ff1a1a;
+    padding:2px 8px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.delete:hover{
+    background-color:#ff6666;
+}
+
+.btn.center{
+    align-items: center;
+}
+.btn:hover,.status.edit:hover
+{
+    background-color:#33adff;
+}
+
+
+.heading{
+    margin:0px 0px 40px 0px;
+    font-size: 25px;
+}
+
+.container{
+    background-color: #d9d9d9;
+    padding:60px 50px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.containerTable{
+    background-color: #d9d9d9;
+    padding:60px 50px;
+    border-radius: 15px;
+    margin:25px 25%;
+}
+
+
+.txtbox{
+    outline:none;
+    border: none;
+    height:30px;
+    padding: 3px 8px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+table{
+    width:100%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.row1{
+    background-color: white;
+}
+
+.row2{
+    background-color: white;
+}
+
+.adminMessage{
+    border-radius: 5px;
+}
+
+.date{
+    color: gray;
+    font-size: 12px;
+    text-align: left;
+    font-style:italic;
+}
+
+.id,td.subject{
+   font-weight:600;
+   text-align: left
+}
+
+.status{
+   background-color: #99ffbb;
+   text-align: center;
+   padding: 5px 3px;
+   border-radius: 10px;
+   font-size: 12px;
+}
+
+.complaint{
+   background-color: #f2f2f2;
+   text-align:left;
+   padding: 5px 3px;
+   border-radius: 10px;
+   font-size: 16px;
+   width: 100%;
+}
+
+.adminMsg{
+   padding: 5px 3px;
+   border-radius: 10px;
+   font-size: 12px; 
+}
+
+
+
